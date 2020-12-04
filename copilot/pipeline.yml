@@ -1,7 +1,7 @@
 # This YAML file defines the relationship and deployment ordering of your environments.
 
 # The name of the pipeline
-name: pipeline-machida-app-aws-samples-aws-copilot-sample-service
+name: pipeline-machida-app-methimo-copilot-sample
 
 # The version of the schema used in this template
 version: 1
@@ -14,9 +14,9 @@ source:
   # the artifacts should be sourced from. For example, the GitHub provider
   # has the following properties: repository, branch.
   properties:
-    access_token_secret: github-token-machida-app-aws-copilot-sample-service
+    access_token_secret: github-token-machida-app-copilot-sample
     branch: main
-    repository: https://github.com/aws-samples/aws-copilot-sample-service
+    repository: https://github.com/methimo/copilot-sample
 
 # The deployment section defines the order the pipeline will deploy
 # to your environments.
